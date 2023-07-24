@@ -1,2 +1,5 @@
 node_modules
 .vscode-test
+.vscode/*
+.idea/*
+gpt-investigate-extension-0.0.1.vsix

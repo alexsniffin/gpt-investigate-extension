@@ -1,7 +1,7 @@
 {
   "name": "gpt-investigate-extension",
   "displayName": "GPT Investigate",
-  "description": "A VS Code extension that uses GPT with git and Github to provide insights into a code snippet",
+  "description": "Use GPT with git and Github to provide insights into a code snippet",
   "icon":"images/icon.png",
   "version": "0.0.1",
   "author": {
@@ -12,6 +12,7 @@
     "type": "git",
     "url": "https://github.com/alexsniffin/gpt-investigate-extension"
   },
+  "keywords":["git","github","gpt","code analysis","chatgpt","openai","summarization"],
   "license": "SEE LICENSE IN LICENSE",
   "bugs": {
     "url": "https://github.com/alexsniffin/gpt-investigate-extension/issues",

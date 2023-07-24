@@ -1,6 +1,6 @@
 # gpt-investigate-extension
 
-This is a VS Code extension designed to provide a detailed analysis of selected code snippets in a Git project, similar to how `git log` and `git blame` work. It utilizes the existing git project, GitHub and GPT to aggregate a summary of the current state of the selected code, its history, changes in its meaning, related commits, pull requests, and details of contributors who have worked on it.
+This is a GPT tool designed to provide a detailed analysis of selected code snippets in a Git project, similar to how `git log` and `git blame` work. It utilizes the existing git project, GitHub and GPT to aggregate and summarize the current state of the selected code, its history, changes in its meaning, related commits, pull requests, and details of contributors who have worked on it. 🧐
 
 ## Installation
 
