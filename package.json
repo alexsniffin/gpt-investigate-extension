@@ -3,7 +3,7 @@
   "displayName": "GPT Investigate",
   "description": "Use GPT with git and Github to provide insights into a code snippet",
   "icon":"images/icon.png",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": {
     "name": "Alexander Sniffin"
   },

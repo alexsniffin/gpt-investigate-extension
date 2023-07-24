@@ -38,4 +38,5 @@ This extension contributes the following settings:
 
 
 ## Release Notes
+- v0.0.2 update package info
 - v0.0.1 init release
