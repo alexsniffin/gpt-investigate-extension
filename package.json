@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/alexsniffin/gpt-investigate-extension/blob/master/README.md",
   "galleryBanner": {
-    "color": "#C80000",
+    "color": "#474747",
     "theme": "dark"
   },
   "engines": {
@@ -53,27 +53,27 @@
         "gptInvestigate.openAI.apiKey": {
           "type": "string",
           "default": "",
-          "description": "(required) OpenAI API key"
+          "description": "OpenAI API key"
         },
         "gptInvestigate.openAI.modelName": {
           "type": "string",
           "default": "gpt-3.5-turbo",
-          "description": "(required) OpenAI Model Name"
+          "description": "OpenAI Model Name"
         },
         "gptInvestigate.openAI.maxTokens": {
           "type": "int",
           "default": -1,
-          "description": "(required) OpenAI Model Max Tokens"
+          "description": "OpenAI Model Max Tokens"
         },
         "gptInvestigate.openAI.temperature": {
           "type": "int",
           "default": 0,
-          "description": "(required) OpenAI Model Temperature"
+          "description": "OpenAI Model Temperature"
         },
         "gptInvestigate.git.accessToken": {
           "type": "string",
           "default": "",
-          "description": "(optional) GitHub personal access token"
+          "description": "GitHub personal access token"
         }
       }
     }
