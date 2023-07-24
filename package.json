@@ -1,8 +1,27 @@
 {
   "name": "gpt-investigate-extension",
   "displayName": "GPT Investigate",
-  "description": "",
+  "description": "A VS Code extension that uses GPT with git and Github to provide insights into a code snippet",
+  "icon":"images/icon.png",
   "version": "0.0.1",
+  "author": {
+    "name": "Alexander Sniffin"
+  },
+  "publisher": "alexsniffin",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexsniffin/gpt-investigate-extension"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/alexsniffin/gpt-investigate-extension/issues",
+    "email": "alexsniffin@gmail.com"
+  },
+  "homepage": "https://github.com/alexsniffin/gpt-investigate-extension/blob/master/README.md",
+  "galleryBanner": {
+    "color": "#C80000",
+    "theme": "dark"
+  },
   "engines": {
     "vscode": "^1.80.0"
   },
@@ -71,12 +90,12 @@
     "@vscode/test-electron": "^2.3.2",
     "eslint": "^8.41.0",
     "glob": "^8.1.0",
-    "mocha": "^10.2.0"
+    "mocha": "^10.2.0",
+    "vscode": "^1.1.37"
   },
   "dependencies": {
     "axios": "^1.4.0",
     "langchain": "^0.0.114",
-    "marked": "^5.1.1",
-    "vscode": "^1.1.37"
+    "marked": "^5.1.1"
   }
 }

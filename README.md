@@ -2,6 +2,10 @@
 
 This is a VS Code extension designed to provide a detailed analysis of selected code snippets in a Git project, similar to how `git log` and `git blame` work. It utilizes the existing git project, GitHub and GPT to aggregate a summary of the current state of the selected code, its history, changes in its meaning, related commits, pull requests, and details of contributors who have worked on it.
 
+## Installation
+
+Search for "GPT Investigate" on the VS Code extension marketplace.
+
 ## Features
 
 1. **🔍 GPT Investigate**: Right-click on a selected code snippet in a Git project. Select "🔍 GPT Investigate". The extension will generate a concise detailed analysis of the code and its history in the project.
@@ -31,3 +35,7 @@ This extension contributes the following settings:
 * `gptInvestigate.openAI.modelName`: Name of the OpenAI model to use. Default gpt-3.5-turbo. gpt-4 will provide the best results but can be costly. If you're running into token limitations, try using gpt-3.5-turbo-16k.
 
 * `gptInvestigate.openAI.maxTokens`: Sets the maxTokens for the API. Default -1, which is a smart token calculation from [langchain library](https://js.langchain.com/docs/get_started/introduction).
+
+
+## Release Notes
+- v0.0.1 init release
