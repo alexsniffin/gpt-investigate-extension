@@ -1,0 +1,82 @@
+{
+  "name": "gpt-investigate-extension",
+  "displayName": "GPT Investigate",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "gptInvestigate.myRightClickCommand",
+        "title": "🔍 GPT Investigate"
+      }
+    ],
+    "menus": {
+      "editor/context": [
+        {
+          "command": "gptInvestigate.myRightClickCommand",
+          "group": "gptInvestigate",
+          "order": 1
+        }
+      ]
+    },
+    "configuration": {
+      "title": "GPT Investigate",
+      "properties": {
+        "gptInvestigate.openAI.apiKey": {
+          "type": "string",
+          "default": "",
+          "description": "(required) OpenAI API key"
+        },
+        "gptInvestigate.openAI.modelName": {
+          "type": "string",
+          "default": "gpt-3.5-turbo",
+          "description": "(required) OpenAI Model Name"
+        },
+        "gptInvestigate.openAI.maxTokens": {
+          "type": "int",
+          "default": -1,
+          "description": "(required) OpenAI Model Max Tokens"
+        },
+        "gptInvestigate.openAI.temperature": {
+          "type": "int",
+          "default": 0,
+          "description": "(required) OpenAI Model Temperature"
+        },
+        "gptInvestigate.git.accessToken": {
+          "type": "string",
+          "default": "",
+          "description": "(optional) GitHub personal access token"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "node ./test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/glob": "^8.1.0",
+    "@types/mocha": "^10.0.1",
+    "@types/node": "20.2.5",
+    "@types/vscode": "^1.80.0",
+    "@vscode/test-electron": "^2.3.2",
+    "eslint": "^8.41.0",
+    "glob": "^8.1.0",
+    "mocha": "^10.2.0"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "langchain": "^0.0.114",
+    "marked": "^5.1.1",
+    "vscode": "^1.1.37"
+  }
+}
